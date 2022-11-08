@@ -1,0 +1,15 @@
+@import "reset";
+@import "vars";
+@import "blocks/content";
+@import "blocks/tabs";
+@import "blocks/qualities";
+@import 'media';
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F4F4F4;
+    color: $main;
+
+}

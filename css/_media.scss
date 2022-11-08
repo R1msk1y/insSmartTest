@@ -1,0 +1,123 @@
+@media (max-width: 820px){
+    //tabs
+    .tabOne,
+    .tabTwo{
+        font-size: 20px;
+    }
+    .tabOne{
+        top: -71px;
+    }
+    .tabTwo{
+        position: absolute;
+        bottom: -90px;
+        top: auto;
+        left: 0;
+        background-color: #fff;
+        max-width: 335px;
+        width: 335px;
+        border-radius: 20px;
+    }
+    .tabOne--media{
+        position: absolute;
+        color: $main;
+        top: -150px;
+        left: 0;
+        background-color: #fff;
+        max-width: 335px;
+        width: 335px;
+        border-radius: 20px;
+    }
+    .tabTwo--media{
+        top: -71px;
+        bottom: auto;
+        max-width: 335px;
+        padding: 24px 20px;
+        border-radius: 20px 20px 0px 0px;
+        color: $blue;
+        font-size: 2.2rem;
+        font-weight: 500;
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+    }
+    .content{
+        width: 335px;
+        border-radius: 0px 0px 20px 20px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        margin-bottom: 143px;
+        margin-top: 200px;
+    }
+    .descr{
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 0;
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+    .descr__imgBox{
+        width: 100%;
+        overflow: auto;
+    }
+    .descr__img{
+        max-width: 295px;
+        height: 192px;
+        left: 0;
+    }
+    .descr__inner{
+        width: 100%;
+        h1{
+            font-size: 2.4rem;
+            line-height: 36px;
+        }
+
+    }
+    .descr__textOne{
+        font-size: 1.4rem;
+        line-height: 21px;
+    }
+    //qualities
+    .qualities{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .qualities__title{
+        font-size: 1.6rem;
+        line-height: 24px;
+        margin-top: 30px;
+    }
+    .qualities__list{
+        padding-top: 10px;
+        position: relative;
+        left: 0;
+        height: auto;
+        flex-wrap: nowrap;
+    }
+    .form{
+        margin-top: 15px;
+    }
+    .form__group{
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 15px;
+    }
+    .input{
+        width: 100%;
+    }
+    .btn{
+        font-size: 1.4rem;
+        line-height: 21px;
+    }
+    .btn--add{
+        width: 100%;
+    }
+    .form__send{
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
+        column-gap: 20px;
+    }
+};

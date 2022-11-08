@@ -1,0 +1,136 @@
+.qualities{
+
+    border-top: 1px solid $softGrey;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.qualities__title{
+
+    color: $main;
+    font-size: 1.8rem;
+    line-height: 27px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.qualities__list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    margin-left: 17px;
+    padding-top: 4px;
+
+    li{
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 16px;
+    }
+}
+.qualities__list--transform{
+    display: flex;
+    flex-direction: column;
+    margin-left: 17px;
+    padding-top: 4px;
+    height: auto;
+    flex-wrap: nowrap;
+
+    li{
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 16px;
+    }
+
+}
+
+.form__group{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+
+}
+.input{
+    border: 1px solid $softGrey;
+    border-radius: 16px;
+    width: 351px;
+    padding: 14px 16px;
+    height: 52px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: $main;
+    transition: all .3s ease-in-out;
+    &::placeholder{
+        color: $softGrey;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    &:focus{
+        border: 1px solid $blue;
+    }
+
+}
+.btn{
+    font-size: 1.6rem;
+    line-height: 24px;
+    font-weight: 400;
+    border-radius: 16px;
+    height: 52px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+
+}
+.btn--add{
+    background-color: $blue;
+    color: white;
+    transition: all .1s ease-in-out;
+    &:hover{
+        background-color: #2C1A9A;
+    }
+    &:focus {
+        background-color: #1F1368;
+    }
+
+}
+.btn--ok{
+    background-color: $blue;
+    color: white;
+    transition: all .1s ease-in-out;
+    &:hover{
+        background-color: #2C1A9A;
+    }
+    &:focus {
+        background-color: #1F1368;
+    }
+}
+.btn--cancel{
+    color: $main;
+    transition: all .1s ease-in-out;
+    &:hover{
+        color: #2C1A9A;
+
+    }
+    &:focus {
+        color: #1F1368;
+    }
+}
+.form{
+    margin-top: 20px;
+}
+
+.form__send{
+    margin-top: 40px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    padding-left: 36px;
+    background-color: #fff;
+    box-shadow: 0px 10px 40px rgba(12, 12, 12, 0.1);
+    border-radius: 20px;
+
+    display: flex;
+    column-gap: 10px;
+}

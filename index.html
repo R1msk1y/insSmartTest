@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insSmartTest</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <main class="content">
+        <!-- tabs -->
+        <div class="tabs">
+            <button onclick="return up()" id="productOne" class="tabOne">
+                Горный велосипед
+            </button>
+            <button onclick="return up()" id="productTwo" class="tabTwo">
+                Женский велосипед
+            </button>
+        </div>
+  <!-- tabs -->
+        <div class="descr">
+            <div class="descr__imgBox">
+                <img data-productImg class="descr__img" src="./img/products/image1.png" alt="">
+            </div>
+            <div class="descr__inner">
+                <h1 data-productTitle>Велосипед STELS Navigator 510 HD 26 2022</h1>
+                <p data-productParagraphOne class="descr__textOne">Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см.</p>
+                <p data-productParagraphTwo class="descr__textTwo">Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования велосипеда подростками.</p>
+            </div>
+        </div>
+        <div class="qualities">
+            <h2 class="qualities__title">Характеристики</h2>
+            <ol id="listWithQualities" class="qualities__list">
+                <li>Двойной обод</li>
+                <li>Алюминиевый сплав</li>
+                <li>Колеса диаметром 26 дюймов</li>
+                <li>Покрышки 26х1,95"</li>
+
+            </ol>
+            <h2 class="qualities__title">Добавить характеристику</h2>
+            <form  id="form" class="form">
+                <div class="form__group">
+                    <input   type="text"  id="qualitiesInput" placeholder="Алюминиевый сплав" class="input" type="text"
+                    >
+                <button   type="submit" id="addBtn" class="btn btn--add">Добавить</button>
+                </div>
+
+                <div class="form__send">
+                    <button  class="btn btn--ok">Окей</button>
+                    <button class="btn btn--cancel">Отмена</button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+<script src="js/main.js"></script>
+</body>
+</html>

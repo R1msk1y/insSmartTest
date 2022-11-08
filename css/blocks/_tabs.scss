@@ -1,0 +1,31 @@
+
+.tabOne{
+    max-width: 267px;
+
+    background-color: $softGrey;
+    padding: 24px 20px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: -75px;
+}
+
+.tabTwo{
+    max-width: 288px;
+    background-color: $softGrey;
+    padding: 24px 20px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: absolute;
+    left: 258px;
+    top: -75px;
+}
+.tab--active{
+    background-color: #fff;
+    color: $blue;
+}
